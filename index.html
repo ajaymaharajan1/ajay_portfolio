@@ -1680,11 +1680,11 @@ body.light-mode .chat-msg.bot { background: rgba(59,130,246,0.08); color: #1e293
 
     <div>
       <div class="contact-links">
-        <a class="contact-link" href="mailto:ajay@example.com">
+        <a class="contact-link" href="mailto:ajaymaharajanb@gmail.com">
           <div class="contact-link-icon">✉️</div>
           <div>
             <div class="contact-link-label">Email</div>
-            <div class="contact-link-value">ajay@example.com</div>
+            <div class="contact-link-value">ajaymaharajanb@gmail.com</div>
           </div>
         </a>
         <a class="contact-link" href="https://linkedin.com" target="_blank">
@@ -2149,7 +2149,7 @@ Key facts about Ajay:
 - Projects: Fake Instagram Account Detector (Python, Django, ML), Dating App "Matchly" (React Native, Firebase), SOC Dashboard (internal)
 - Skills: Python, Django, React Native, JavaScript, SQL, Scikit-Learn, Firebase, GitHub, Network Security, SOC monitoring
 - Open to full-time software engineering roles, especially Custom Software Engineering / Python developer positions
-- Contact: ajay@example.com | GitHub: github.com/ajaymaharajan | LinkedIn: linkedin.com/in/ajaymaharajan`;
+- Contact: ajaymaharajanb@gmail.com | GitHub: github.com/ajaymaharajan | LinkedIn: linkedin.com/in/ajaymaharajan`;
 
 function toggleChat() {
   chatOpen = !chatOpen;
@@ -2208,11 +2208,11 @@ async function sendChat() {
     });
     const data = await res.json();
     hideTyping();
-    const reply = data?.content?.[0]?.text || "I'm having trouble connecting right now. Please reach out to Ajay directly at ajay@example.com!";
+    const reply = data?.content?.[0]?.text || "I'm having trouble connecting right now. Please reach out to Ajay directly at ajaymaharajanb@gmail.com!";
     appendMsg(reply, 'bot');
   } catch (err) {
     hideTyping();
-    appendMsg("Hmm, couldn't reach the server. Try emailing Ajay at ajay@example.com!", 'bot');
+    appendMsg("Hmm, couldn't reach the server. Try emailing Ajay at ajaymaharajanb@gmail.com!", 'bot');
   }
 }
 
